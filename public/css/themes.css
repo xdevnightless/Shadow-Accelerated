@@ -1,0 +1,109 @@
+/* Default Theme (Dark Gray/Black with Red Accents) */
+:root {
+    --primary-color: #fff;
+    /* White text */
+    --secondary-color: rgba(255, 255, 255, 0.7);
+    /* Slightly transparent white text */
+    --highlight-color: red;
+    /* Tomato red highlight */
+    --background-color: #181818;
+    --border-color: #2c2f38;
+    /* Dark borders */
+    --icon-color: #ccc;
+    /* Light gray icon color */
+}
+
+/* Midnight Theme */
+:root.midnight {
+    --primary-color: #ecf0f1;
+    /* Light text */
+    --secondary-color: rgba(236, 240, 241, 0.7);
+    /* Slightly transparent text */
+    --background-color: #2c3e50;
+    /* Dark blue background */
+    --highlight-color: #588fc7;
+    /* Cool blue highlight */
+    --border-color: black;
+    /* Black borders */
+    --icon-color: #ccc;
+    /* Light gray icons */
+}
+
+/* Dark Cool Theme */
+:root.dark-cool {
+    --primary-color: #fff;
+    /* White text */
+    --secondary-color: rgba(255, 255, 255, 0.7);
+    /* Slightly transparent white text */
+    --background-color: #121212;
+    /* Dark background */
+    --highlight-color: #1e90ff;
+    /* Cool blue highlight */
+    --border-color: #444;
+    /* Dark borders */
+    --icon-color: #bbb;
+    /* Light gray icon color */
+}
+
+/* Monochrome Theme */
+:root.monochrome {
+    --primary-color: #fff;
+    /* White text */
+    --secondary-color: rgba(255, 255, 255, 0.5);
+    /* Transparent white text */
+    --background-color: #000;
+    /* Black background */
+    --highlight-color: #808080;
+    /* Neutral grey highlights */
+    --border-color: #333;
+    /* Dark grey borders */
+    --icon-color: #bbb;
+    /* Light gray icon color */
+}
+
+/* Night Neon Theme */
+:root.night-neon {
+    --primary-color: #fff;
+    /* White text */
+    --secondary-color: rgba(255, 255, 255, 0.7);
+    /* Slightly transparent white text */
+    --background-color: #0c0c0c;
+    /* Very dark background */
+    --highlight-color: #39ff14;
+    /* Neon green accents */
+    --border-color: #222;
+    /* Very dark borders */
+    --icon-color: #39ff14;
+    /* Neon green icon color */
+}
+
+/* Pastel Dark Theme */
+:root.pastel-dark {
+    --primary-color: #fff;
+    /* White text */
+    --secondary-color: rgba(255, 255, 255, 0.7);
+    /* Slightly transparent white text */
+    --background-color: #2b2d42;
+    /* Soft dark blue background */
+    --highlight-color: #f5a623;
+    /* Soft yellow-orange highlights */
+    --border-color: #3e3e3e;
+    /* Dark grey borders */
+    --icon-color: #f5a623;
+    /* Soft yellow-orange icon color */
+}
+
+:root.hacker {
+    --primary-color: #00ff00;
+    /* Neon green text */
+    --secondary-color: rgba(0, 255, 0, 0.7);
+    /* Slightly transparent green */
+    --highlight-color: #00ff00;
+    /* Neon green highlights */
+    --background-color: #1c1c1c;
+    /* Dark background */
+    --border-color: #333;
+    /* Dark borders */
+    --icon-color: #ccc;
+    /* Light gray icon color */
+}
